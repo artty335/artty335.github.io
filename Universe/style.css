@@ -1506,11 +1506,12 @@ body {
   .zoom-close .scale-d #solar-system {
     margin-left: -120%; } }
 
+
     .set-mutesong {
       cursor: pointer;
-      padding: -5% 5px;
-      border-radius: 5%;
-      font-size: 5%;
+      padding: -5% 41px;
+      border-radius: 10%;
+      font-size: 1%;
     }
     
     .set-mutesong input[type="checkbox"] {
