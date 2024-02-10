@@ -80,10 +80,10 @@ button:nth-child(1) {
 button:nth-child(2) {
     
     margin-right: -200px;
-    color: hsl(119, 56%, 44%);
+    color: hsl(119, 56%, 42%);
 }
 button:nth-child(3) {
     position: center;
-    color: hsl(119, 56%, 43%);
+    color: hsl(119, 56%, 42%);
 }
 
