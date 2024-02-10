@@ -35,6 +35,7 @@ function changeButtonStyle() {
 yesBtn.addEventListener('click', () => {
   question.innerHTML = 'โอเคค้าบบ  🥰🥰';
   image.src = "sweet.gif";
+  noBtn.style.display = "none";
 });
 
 //NO
@@ -54,10 +55,10 @@ noBtn.addEventListener('click', () => {
    question.innerHTML = "เป็นได้ยัง!";
    yesBtn.innerHTML = "เป็นก็ได้!!";
    // เปลี่ยนสไตล์ปุ่ม YesBtn
-   const yesBtnStyle = document.querySelector("button:nth-child(2)").style;
-   yesBtnStyle.position = "center";
-   yesBtnStyle.color = "hsl(119, 56%, 44%)";
-   changeButtonStyle();
+   //const yesBtnStyle = document.querySelector("button:nth-child(2)").style;
+  // yesBtnStyle.position = "center";
+   //yesBtnStyle.color = "hsl(119, 56%, 44%)";
+  // changeButtonStyle();
   
 
  }
