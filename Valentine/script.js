@@ -39,7 +39,7 @@ yesBtn.addEventListener('click', () => {
 });
 
 //NO
-noBtn.addEventListener('click', () => {
+noBtn.addEventListener('mouseover', () => {
   // สุ่มคำถามจาก array
   const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
   question.innerHTML = randomQuestion;
